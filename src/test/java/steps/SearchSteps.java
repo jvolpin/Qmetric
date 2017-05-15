@@ -39,8 +39,7 @@ public class SearchSteps {
 
     @Then("^he should see \"([^\"]*)\" in the results$")
     public void heShouldSeeInTheResults(String result) {
-        String actualResult = ((ResultsPage)currentPage).getFirstResultTitle();
-        Assert.assertTrue(((ResultsPage)currentPage).getFirstResultTitle().contains(result),"Product not found");
+        Assert.assertTrue(new ResultsPage(driver).getFirstResultTitle().contains(result),"Product not found");
     }
 
     @After

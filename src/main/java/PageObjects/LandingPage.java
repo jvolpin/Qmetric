@@ -8,7 +8,6 @@ import org.openqa.selenium.support.FindBy;
  * Created by Juan on 15/05/2017.
  */
 public class LandingPage extends AbstractPage {
-    WebDriver driver;
 
     @FindBy(id = "gh-ac")
     private WebElement searchBar;
