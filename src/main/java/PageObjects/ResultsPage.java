@@ -10,7 +10,7 @@ import org.openqa.selenium.support.FindBy;
  */
 public class ResultsPage extends LandingPage {
 
-    @FindBy(xpath = "id('ListViewInner')/li[1]/h3")
+    @FindBy(xpath = "id('ListViewInner')/li[1]/h3/a")
     private WebElement firstSearchResult;
 
     public ResultsPage(WebDriver driver) {

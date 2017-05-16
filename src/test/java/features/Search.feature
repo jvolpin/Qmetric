@@ -7,4 +7,4 @@ Feature:
   Scenario: Simple search
     Given the user is on landing page
     When the user searches for "Catan 5th Edition"
-    Then he should see "Catan 5th Edition" in the results
+    Then he should see "Settlers of Catan Board Game 5th" in the results
